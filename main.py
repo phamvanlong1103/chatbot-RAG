@@ -2,9 +2,9 @@ import os
 from langchain.chains import RetrievalQA
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.schema import Document
-from langchain_openai.embeddings import OpenAIEmbeddings  # ✅ Sửa lại import
+from langchain_openai.embeddings import OpenAIEmbeddings 
 from langchain_community.vectorstores import FAISS
-from langchain_openai.chat_models import ChatOpenAI  # ✅ Sửa lại import
+from langchain_openai.chat_models import ChatOpenAI  
 from langchain_community.document_loaders import TextLoader
 
 # Khởi tạo mô hình OpenAI với biến môi trường
